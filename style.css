@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Segoe UI,sans-serif;
+    background:#3a3939;
+    color:white;
+}
+
+/* NAVIGATION */
+
+nav{
+    padding:30px 0;
+    border-bottom:1px solid #3a3939;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    list-style:none;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#c96553;
+}
+
+/* HOMEPAGE */
+
+.hero{
+    min-height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.hero-logo{
+    width:1400px;
+    max-width:95vw;
+    display:block;
+    margin:auto;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:900px;
+    font-size:1.2rem;
+    color:#d4d4d4;
+}
+
+/* PAGES */
+
+.page{
+    max-width:1200px;
+    margin:auto;
+    padding:100px 30px;
+}
+
+.page h1{
+    text-align:center;
+    margin-bottom:50px;
+    font-size:3rem;
+}
+
+/* SERVICES */
+
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#3e3e3f;
+    border:1px solid #555;
+    padding:30px;
+    border-radius:15px;
+}
+
+.card h3{
+    color:#c96553;
+    margin-bottom:15px;
+}
+
+.card:hover{
+    border-color:#c96553;
+}
+
+/* CONTACT */
+
+form{
+    max-width:700px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input,
+textarea{
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#3e3e3f;
+    color:white;
+}
+
+textarea{
+    min-height:180px;
+}
+
+button{
+    background:#c96553;
+    color:white;
+    border:none;
+    border-radius:10px;
+    padding:15px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#b75543;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:30px;
+    border-top:1px solid #3e3e3f;
+    color:#d0d0d0;
+}
