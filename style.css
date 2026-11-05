@@ -97,14 +97,6 @@ a{
     font-size:1.15rem;
 }
 
-.hero-contact{
-    margin-top:25px;
-}
-
-.hero-contact a{
-    color:#c96553;
-}
-
 /* PAGE CONTENT */
 
 .page{
@@ -122,6 +114,7 @@ a{
 .content{
     max-width:900px;
     margin:auto;
+    text-align:center;
 }
 
 .content p{
@@ -158,15 +151,6 @@ a{
 .contact-intro{
     text-align:center;
     margin-bottom:20px;
-}
-
-.contact-email{
-    text-align:center;
-    margin-bottom:20px;
-}
-
-.contact-email a{
-    color:#c96553;
 }
 
 form{
